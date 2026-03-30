@@ -22,9 +22,11 @@ namespace ContactForm.Controllers
         {
             return View();
         }
-        // this is rebase testing 2
+        // this is rebase testing 1
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+        // this is rebase testing 1
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
